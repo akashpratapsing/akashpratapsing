@@ -1,6 +1,6 @@
 ![MasterHead](https://img.freepik.com/free-vector/programmer-typographic-header-idea-coding-testing-writing-program-using-internet-different-software-website-development-optimization-isolated-vector-illustration_613284-970.jpg?w=1380&t=st=1717401714~exp=1717402314~hmac=47593060fa60181806c7f1f173f54529b9e6de868eaff9ed07a9260678af8395)
 <h1 align="center">Hi 👋, I'm Akash Pratap Singh</h1>
-<h3 align="center">A passionate fullstack developer from India</h3>
+<h3 align="center">A passionate fullstack Java developer from India</h3>
 <img align="right" alt="coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=akashpratapsing&label=Profile%20views&color=0e75b6&style=flat" alt="akashpratapsing" /> </p>
