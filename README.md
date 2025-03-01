@@ -35,6 +35,7 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
                     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" />
                     <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" />
                     </picture>
-                    </a></p>### Badges<b>My GitHub Stats</b><a
+                    </a></p>
+  ### Badges<b>My GitHub Stats</b><a
                       href="http://www.github.com/akashpratapsing"><img
                   src="https://github-readme-streak-stats.herokuapp.com/?user=akashpratapsing&stroke=a855f7&background=0f172a&ring=84cc16&fire=84cc16&currStreakNum=a855f7&currStreakLabel=84cc16&sideNums=a855f7&sideLabels=a855f7&dates=a855f7&hide_border=true" /></a><b>Top Repositories</b><div width="100%" align="center"></div><br /><br /><br /><br /><br /><br /><br />
