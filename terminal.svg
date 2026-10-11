@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="384" viewBox="0 0 800 384" fill="none">
+  <style>
+    :root {
+      --prompt: #4d7c0f;
+      --text: #1e293b;
+      --key: #7e22ce;
+      --val: #0369a1;
+      --warn: #b45309;
+      --muted: #64748b;
+      --accent: #a855f7;
+      --bg: #f6f8fa;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --prompt: #84cc16;
+        --text: #e2e8f0;
+        --key: #c084fc;
+        --val: #38bdf8;
+        --warn: #fbbf24;
+        --muted: #94a3b8;
+        --accent: #a855f7;
+        --bg: #0d1117;
+      }
+    }
+    text { font-family: 'Fira Code', 'JetBrains Mono', Consolas, 'Courier New', monospace; font-size: 15px; white-space: pre; }
+    .p { fill: var(--prompt); font-weight: 600; }
+    .c { fill: var(--text); }
+    .k { fill: var(--key); }
+    .v { fill: var(--val); }
+    .o { fill: var(--warn); }
+    .m { fill: var(--muted); }
+    .fade { opacity: 0; animation: show 0.4s ease-out forwards; }
+    @keyframes show { from { opacity: 0; } to { opacity: 1; } }
+  </style>
+
+  <defs>
+    <clipPath id="c1"><rect x="24" y="64"  width="0" height="24"><animate attributeName="width" from="0" to="215" begin="0.3s" dur="1.0s"  fill="freeze"/></rect></clipPath>
+    <clipPath id="c2"><rect x="24" y="120" width="0" height="24"><animate attributeName="width" from="0" to="285" begin="2.0s" dur="1.3s"  fill="freeze"/></rect></clipPath>
+    <clipPath id="c4"><rect x="24" y="224" width="0" height="24"><animate attributeName="width" from="0" to="300" begin="4.6s" dur="1.4s"  fill="freeze"/></rect></clipPath>
+    <clipPath id="c5"><rect x="24" y="280" width="0" height="24"><animate attributeName="width" from="0" to="295" begin="6.7s" dur="1.35s" fill="freeze"/></rect></clipPath>
+  </defs>
+
+  <!-- window frame: mostly opaque body for readability, translucent title bar -->
+  <rect x="1.5" y="1.5" width="797" height="381" rx="12" fill="var(--bg)" fill-opacity="0.94"/>
+  <rect x="1.5" y="1.5" width="797" height="381" rx="12" stroke="var(--accent)" stroke-width="2" stroke-opacity="0.85"/>
+  <path d="M1.5 13.5 a12 12 0 0 1 12 -12 h773 a12 12 0 0 1 12 12 v26 h-797 z" fill="var(--accent)" fill-opacity="0.14"/>
+  <line x1="1.5" y1="39.5" x2="798.5" y2="39.5" stroke="var(--accent)" stroke-opacity="0.45"/>
+  <circle cx="26" cy="21" r="7" fill="#ff5f56"/>
+  <circle cx="50" cy="21" r="7" fill="#ffbd2e"/>
+  <circle cx="74" cy="21" r="7" fill="#27c93f"/>
+  <text x="400" y="26" text-anchor="middle" class="m" style="font-size:13px">akash@github: ~/about</text>
+
+  <!-- 1 -->
+  <text x="24" y="80" clip-path="url(#c1)"><tspan class="p">akash@github</tspan><tspan class="c">:</tspan><tspan class="k">~</tspan><tspan class="c">$ whoami</tspan></text>
+  <text x="24" y="104" class="fade" style="animation-delay:1.5s"><tspan class="v">akash-pratap-singh</tspan></text>
+
+  <!-- 2 -->
+  <text x="24" y="136" clip-path="url(#c2)"><tspan class="p">akash@github</tspan><tspan class="c">:</tspan><tspan class="k">~</tspan><tspan class="c">$ cat about.txt</tspan></text>
+  <text x="24" y="160" class="fade" style="animation-delay:3.5s"><tspan class="o">role      </tspan><tspan class="c">: Assistant System Engineer @ TCS</tspan></text>
+  <text x="24" y="184" class="fade" style="animation-delay:3.8s"><tspan class="o">location  </tspan><tspan class="c">: Nagpur, India</tspan></text>
+  <text x="24" y="208" class="fade" style="animation-delay:4.1s"><tspan class="o">education </tspan><tspan class="c">: B.Tech CSE, Gyan Ganga College of Technology</tspan></text>
+
+  <!-- 3 -->
+  <text x="24" y="240" clip-path="url(#c4)"><tspan class="p">akash@github</tspan><tspan class="c">:</tspan><tspan class="k">~</tspan><tspan class="c">$ echo $CURRENTLY</tspan></text>
+  <text x="24" y="264" class="fade" style="animation-delay:6.2s"><tspan class="c">Diving deep into Generative AI and real-world applications</tspan></text>
+
+  <!-- 4 -->
+  <text x="24" y="296" clip-path="url(#c5)"><tspan class="p">akash@github</tspan><tspan class="c">:</tspan><tspan class="k">~</tspan><tspan class="c">$ cat status.txt</tspan></text>
+  <text x="24" y="320" class="fade" style="animation-delay:8.3s"><tspan class="p">[OPEN]</tspan><tspan class="c"> Collaborating on impactful and innovative projects</tspan></text>
+
+  <!-- prompt + cursor -->
+  <text x="24" y="352" class="fade" style="animation-delay:8.9s"><tspan class="p">akash@github</tspan><tspan class="c">:</tspan><tspan class="k">~</tspan><tspan class="c">$</tspan></text>
+  <rect x="228" y="339" width="9" height="16" fill="var(--prompt)" opacity="0">
+    <animate attributeName="opacity" values="1;0" calcMode="discrete" dur="1s" begin="9.5s" repeatCount="indefinite"/>
+  </rect>
+</svg>
