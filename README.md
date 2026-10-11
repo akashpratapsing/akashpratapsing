@@ -15,7 +15,7 @@
 ## 👨‍💻 About Me
 
 <div align="center">
-  <img src="assets/terminal.svg" alt="Terminal: about Akash Pratap Singh" width="800" />
+  <img src="terminal.svg" alt="Terminal: about Akash Pratap Singh" width="800" />
 </div>
 
 ---
